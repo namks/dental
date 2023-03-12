@@ -71,3 +71,11 @@ plink2 \
 
 4. Postprocess (Predict ancestry group based on PC scores)
 
+```
+# First prepare the ancestry information of reference data (must be delimited by tab)
+./predstupopu.py \
+/media/leelabsg-storage0/kisung/FRAPOSA/fraposa/PC/1kg_phase3 \
+/media/leelabsg-storage0/kisung/FRAPOSA/fraposa/PC/ukb_pruned
+```
+
+This generates `ukb_pruned.popu` which contains the predicted ancestry for UKB data.
