@@ -88,3 +88,5 @@ Only include: White (British, Irish, Any other white background), Do not know, P
 Exclude other ethnic backgrounds
 
 2. If P(EUR > 0.99) and self-reported ethnicity is european (or unknown), classify as European. (Refer `filter.R`)
+
+3. European n = 458,643
