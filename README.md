@@ -87,4 +87,4 @@ This generates `ukb_pruned.popu` which contains the predicted ancestry for UKB d
 Only include: White (British, Irish, Any other white background), Do not know, Prefer not to answer (Code: 1, 1001, 1002, 1003, -1, -3)
 Exclude other ethnic backgrounds
 
-2. If P(EUR > 0.95) and self-reported ethnicity is european (or unknown), classify as European.
+2. If P(EUR > 0.99) and self-reported ethnicity is european (or unknown), classify as European. (Refer `filter.R`)
