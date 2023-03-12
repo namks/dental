@@ -79,3 +79,12 @@ plink2 \
 ```
 
 This generates `ukb_pruned.popu` which contains the predicted ancestry for UKB data.
+
+### Filter out self-reported non-Europeans
+
+1. Refer Data-Field 21000 (Ethnic background)
+
+Only include: White (British, Irish, Any other white background), Do not know, Prefer not to answer (Code: 1, 1001, 1002, 1003, -1, -3)
+Exclude other ethnic backgrounds
+
+2. If P(EUR > 0.95) and self-reported ethnicity is european (or unknown), classify as European.
