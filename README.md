@@ -89,4 +89,6 @@ Exclude other ethnic backgrounds
 
 2. If P(EUR > 0.99) and self-reported ethnicity is european (or unknown), classify as European. (Refer `filter.R`)
 
-3. European n = 458,643
+3. And also removed sample with PC values outside 4 sd from the mean value of each PCs of 1KG EUR samples
+
+4. European n = 458,494
